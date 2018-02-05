@@ -1,0 +1,9 @@
+---
+# defaults file for acme-service-postfix/
+default__acme__user: 'acme'
+default__acme__group: 'acme'
+
+default__acme__config_dir: '/etc/ssl/acme'
+default__acme__service_dir: '{{ default__acme__config_dir }}/service.d'
+
+default__service_name: 'postfix'
